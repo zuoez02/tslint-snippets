@@ -1,8 +1,14 @@
 {
     "name": "tslint-snippets",
-    "displayName": "tslint",
+    "displayName": "TSLint Snippets",
     "description": "Snippets for tslint ignore",
-    "version": "0.2.0",
+    "version": "1.0.1",
+    "repository": {
+        "url": "https://github.com/zuoez02/tslint-snippets"
+    },
+    "scripts": {
+        "package": "vsce package"
+    },
     "publisher": "zuoez02",
     "engines": {
         "vscode": "^1.23.0"
@@ -17,5 +23,6 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "icon": "images/tslint.png"
 }
