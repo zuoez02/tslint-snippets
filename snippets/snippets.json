@@ -1,0 +1,51 @@
+{
+    "tslint:disable": {
+        "prefix": "tslint:disable",
+        "description": "Disable all rules for the rest of the file",
+        "body": [
+            "/* tslint:disable */"
+        ]
+    },
+    "tslint:enable": {
+        "prefix": "tslint:enable",
+        "description": "Enable all rules for the rest of the file",
+        "body": [
+            "/* tslint:enable */"
+        ]
+    },
+    "tslint:disable:rule": {
+        "prefix": "tslint:disable:rules",
+        "description": "Disable the listed rules for the rest of the file",
+        "body": [
+            "/* tslint:disable:${1:rule_name} */"
+        ]
+    },
+    "tslint:enable:rule": {
+        "prefix": "tslint:enable:rules",
+        "description": "Enable the listed rules for the rest of the file",
+        "body": [
+            "/* tslint:enable:${1:rule_name} */"
+        ]
+    },
+    "tslint:disable-next-line": {
+        "prefix": "tslint:disable-next-line",
+        "description": "Disables all rules for the following line",
+        "body": [
+            "// tslint:disable-next-line"
+        ]
+    },
+    "tslint:disable-line": {
+        "prefix": "tslint:disable-line",
+        "description": "Disables all rules for the current line",
+        "body": [
+            "// tslint:disable-line"
+        ]
+    },
+    "tslint:disable-next-line:rule": {
+        "prefix": "tslint:disable-next-line:rule",
+        "description": "Disables the listed rules for the next line",
+        "body": [
+            "// tslint:disable-next-line:${1:rule_name}"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "tslint-snippets",
+    "displayName": "tslint",
+    "description": "Snippets for tslint ignore",
+    "version": "0.2.0",
+    "publisher": "zuoez02",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
