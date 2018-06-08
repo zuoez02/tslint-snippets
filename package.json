@@ -2,7 +2,7 @@
     "name": "tslint-snippets",
     "displayName": "TSLint Snippets",
     "description": "Snippets for tslint ignore",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "repository": {
         "url": "https://github.com/zuoez02/tslint-snippets"
     },
@@ -20,6 +20,9 @@
         "snippets": [
             {
                 "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }, {
+                "language": "typescriptreact",
                 "path": "./snippets/snippets.json"
             }
         ]

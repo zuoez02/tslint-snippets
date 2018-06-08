@@ -5,6 +5,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 <!-- - Initial release -->
+## [1.1.0] - 2018-06-08
+- Add support for typescriptreact(.tsx) file
 
 ## [1.0.2] - 2018-05-31
 ### Added
